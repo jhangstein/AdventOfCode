@@ -81,3 +81,6 @@ fabric.properties
 
 # Project exclude paths
 /target/
+/.idea/compiler.xml
+/.idea/
+/AdventOfCode.iml
