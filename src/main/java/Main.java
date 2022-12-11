@@ -1,4 +1,5 @@
 import DailyRiddles.Day1.CaloriesManager;
+import DailyRiddles.Day10.CPU;
 import DailyRiddles.Day2.Day2RPS;
 import DailyRiddles.Day3.Rucksack;
 import DailyRiddles.Day3.RucksackManager;
@@ -90,13 +91,17 @@ public class Main {
         System.out.println("Highest scenic score: " + treeGrid.highestScenicScore);
 
 
-        System.out.println("\n------------ Day 9 ------------\n");
+        /*System.out.println("\n------------ Day 9 ------------\n");
         RopeCalculator ropeCalculator = new RopeCalculator();
-
         ArrayList<String> movement = pm.transformFileToListOfStrings("day9_input.txt");
         ropeCalculator.init();
         ropeCalculator.movementLoop(movement);
         System.out.println("Here comes the tail grid:");
-        ropeCalculator.ropeTail.printGrid();
+        ropeCalculator.ropeTail.printGrid();*/
+
+
+        System.out.println("\n------------ Day 8 ------------\n");
+        CPU cpu = new CPU();
+        cpu.readInput();
     }
 }

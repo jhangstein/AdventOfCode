@@ -17,6 +17,7 @@ public class RopeCalculator {
         }
     }
 
+    //ToDo: wenn zweimal up, dann tail auf den selben y setzen
 
     public void movementLoop(ArrayList<String> movement) {
         System.out.println("length: " + movement.size());
@@ -37,6 +38,7 @@ public class RopeCalculator {
                     ropeTail.evaluatePosition(ropeHead);
                     updateGrid();
                     printGrid();
+                    // add thing to remember that it moved right last time
                 }
             }
             case "U" -> {
