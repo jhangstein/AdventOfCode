@@ -84,3 +84,6 @@ fabric.properties
 /.idea/compiler.xml
 /.idea/
 /AdventOfCode.iml
+
+# Input Files
+/src/main/java/resources/
